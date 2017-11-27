@@ -1,0 +1,71 @@
+body {
+    font-family: monospace;
+}
+
+.grid {
+    box-sizing: border-box;
+    grid-auto-columns: 400px 400px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 190);
+  font-family:fantasy
+}
+
+#title-pic {
+    width: 550px;
+    position: relative;
+    border: 3px solid black;
+    margin-left:27%
+    
+}
+
+h6 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.grey-border-box {
+    border: 2px solid black;
+    margin: 10px;
+    background-color:grey;
+    align-content: center;
+}
+
+p {
+    width: auto;
+    grid-column: 1;
+}
+
+#tesla-mother {
+    float:right 500px;
+}
+
+li {
+    color: rgb(0, 0, 190);
+}
+
+.menu {
+    overflow: auto;
+}
+
+.menu a {
+    padding-right: 15px;
+    color: black;
+    float:left;
+    
+}
+
+footer {
+    text-align:center;
+}
+
+footer a {
+    color:red;
+}
+
+#wardenclyffe-tower {
+    width: 400px;
+    
+}
